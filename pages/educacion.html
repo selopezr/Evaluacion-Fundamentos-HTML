@@ -5,7 +5,164 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" width="device-width">
     <title>Educación SHAMY EMERSON LÓPEZ ROJAS</title>
   </head>
-  <body>
+  <header style="color:#005fbf" >
+    <svg width="100%" height="190px" viewBox="0 0 100% 190">
+      <image width="100%" height="190px" xlink:href="../SVG/Mi_Logo.svg">
+    </svg>
 
+    <h1 align="center">HOJA DE VIDA</h1>
+    <h2 align="center">Nombre: SHAMY EMERSON LÓPEZ ROJAS</h2>
+    <h3 align="center">Lugar y fecha de nacimiento: La Paz - Bolivia, 14 de Noviembre de 1973</h3>
+    <br>
+  </header>
+
+  <body style="color:#005fbf">
+    <!-- *************************************************************** -->
+    <!-- ******************* MENU DE ENLACES *************************** -->
+    <!-- *************************************************************** -->
+
+    <!-- INFORMACION PERSONAL -->
+    <a href="../index.html">
+      <svg  width="33%" height="30px" viewBox="0 0 100% 30">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#005fbf;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgba(0,95,191,0.66);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect width="100%" height="30" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="14" font-family="Verdana" x="170" y="21">
+          Informacion Personal
+        </text>
+        Tu navegador no soporta SVG.
+      </svg>
+    </a>
+
+    <!-- EDUCACIÓN -->
+    <a href="pages/educacion.html">
+      <svg  width="33%" height="30px" viewBox="0 0 100% 30">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#005fbf;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgba(0,95,191,0.66);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect width="100%" height="30" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="14" font-family="Verdana" x="225" y="21">
+          Educación
+        </text>
+        Tu navegador no soporta SVG.
+      </svg>
+
+      <!-- EXPERIENCIA -->
+      <a href="pages/Experiencia.html">
+        <svg  width="33.45%" height="30px" viewBox="0 0 100% 30">
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#005fbf;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:rgba(0,95,191,0.66);stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <rect width="100%" height="30" fill="url(#grad1)" />
+          <text fill="#ffffff" font-size="14" font-family="Verdana" x="225" y="21">
+            Experiencia
+          </text>
+          Tu navegador no soporta SVG.
+        </svg>
+    </a>
+      <p></p>
+      <img align = "right" src="E:\NextU\ProgramacionWeb\01_Fundmentos de HTML\Evaluacion-Fundamentos-HTML\Foto\FotoShamy.jpg" alt="Shamy López" title="SHAMY" width="250" height="250">
+
+      <!-- *************************************************************** -->
+      <!-- ******************* CONTENIDO EDUCACIÓN *********************** -->
+      <!-- *************************************************************** -->
+
+      <h2>Educación</h2>
+
+      <!-- TABLA -->
+      <table border="1" cellpadding="10" cellspacing="0" stroke="rgb(0,95,191)">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Especialidad/Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <body>
+          <tr>
+            <td align = "center">2018</td>
+            <td>Certificación en programación Web. Next U.
+            </td>
+            <td>La Paz, Bolivia.</td>
+            <td>En proceso.</td>
+          </tr>
+          <tr>
+            <td align = "center">2007</td>
+            <td>Especialización ISO 9001.
+              Instituto Boliviano de Normalización y Calidad, IBNORCA.
+            </td>
+            <td>La Paz, Bolivia.</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2001</td>
+            <td>Certificción programador Visual Basic. Centro de Especialización
+              en Computación.
+            <td>La Paz, Bolivia.</td>
+            <td>SI</td>
+          </tr>
+        </body>
+      </table>
+
+      <!-- FORMULARIO -->
+      <br>
+      <form autocomplete="on" name="Estudios">
+        <fieldset>
+          <legend>Agregar Estudios</legend>
+
+          <table border="0" cellpadding="10" cellspacing="0" stroke="rgb()">
+            <thead>
+              <tr>
+                <th><label for="año"><strong>Año:</strong></label>
+                  <select id="año">
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                  </select>
+                </th>
+                <th>
+                  <label for="institucion"><strong>Especialidad/Institución:</strong></label>
+                  <input type="text" placeholder="Ej. Certificación Programación WEB. Next University" id="institucion" size="83" required>
+                </th>
+                <th>
+                  <label for="lugar"><strong>Lugar:</strong></label>
+                  <input type="text" placeholder="Ej. La Paz, Bolivia " id="lugar" size="25" required>
+                </th>
+                <th>
+                  <input type="submit" value="Enviar">
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </fieldset>
+      </form>
   </body>
+
+  <footer style="color:#005fbf">
+    <svg  width="100%" height="20px" viewBox="0 0 100% 20">
+      <line x1="0" y1="20" x2="100%" y2="20" fill="rgb(0,95,191)" stroke="rgb(0,95,191)" stroke-width="3"/>
+      Tu navegador no soporta SVG.
+    </svg>
+      <strong>e-mail: </strong>
+      selopezr@gmail.com <br>
+      <strong>cellphone: </strong>
+      (+591) 72063358 <br>
+      <strong>skype: </strong>
+      selopezr
+
+  </footer>
 </html>
